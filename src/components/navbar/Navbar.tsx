@@ -1,5 +1,6 @@
 import styles from "./Navbar.module.css";
 import { AiOutlineSearch } from "react-icons/Ai";
+import Button from "../Button";
 
 interface Link {
   name: string;
@@ -31,10 +32,8 @@ const Navbar = ({ links }: Props) => {
               ></AiOutlineSearch>
             </a>
           </li>
-          <li>
-            <button className={styles.btn} role="button">
-              Let's Talk
-            </button>
+          <li className={styles.btn}>
+            <Button> Let's Talk</Button>
           </li>
         </div>
       </ul>
