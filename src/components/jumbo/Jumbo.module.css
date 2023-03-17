@@ -1,0 +1,27 @@
+.container {
+    background-color: black;
+    height: 800px;
+}
+
+.h2{
+    color: #f26c4f;
+    text-align: center;
+    font-size: 4.5rem;
+    padding-top: 120px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    width: 800px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+}
